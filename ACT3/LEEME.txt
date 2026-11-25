@@ -1,0 +1,23 @@
+REPRODUCTOR DE EFECTOS DE SONIDO - JAVA SWING
+
+CÓMO IMPORTAR EN ECLIPSE
+1. Descomprime el archivo ZIP.
+2. Abre Eclipse y selecciona File > Import.
+3. Escoge General > Existing Projects into Workspace > Next.
+4. En Select root directory, selecciona la carpeta ReproductorEfectosSwing.
+5. Marca el proyecto y pulsa Finish.
+6. Abre src/ReproductorSonidos.java.
+7. Haz clic derecho > Run As > Java Application.
+
+CÓMO FUNCIONA
+- Cada botón reproduce un archivo WAV distinto usando Clip (javax.sound.sampled).
+- El botón Detener sonido detiene el efecto que está sonando.
+- Los archivos WAV están dentro de src/sonidos y forman parte del proyecto.
+- No hay dependencias externas. Solo hace falta tener Java y Eclipse.
+- Es un proyecto de escritorio Swing, no un proyecto JavaFX.
+
+ARCHIVOS
+src/ReproductorSonidos.java : código Java completo en una sola clase.
+src/sonidos/*.wav        : 8 efectos sonoros incluidos.
+
+NOTA: Para escuchar los efectos, activa el audio del equipo.
